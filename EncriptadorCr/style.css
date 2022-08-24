@@ -1,0 +1,120 @@
+.logo img{
+    width: 120px;
+    padding: 20px;
+    display: flex;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+h1:hover{
+    transform: scale(1.1);
+
+}
+
+body{
+    display: flex;
+    background: url("imagenes/Algoritmo.jpg"); 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    margin-left: 20px;
+    border-radius: 7px;
+
+}
+
+.input-text{
+   margin-top: 270PX;
+   border-color: #ffffff;
+   font-size: 15px;
+   border-radius: 0 8px 8px 8px;
+}
+
+.botones{
+    margin-top: 20px;
+
+
+}
+
+.encriptar{
+    background-color: #89ac76;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 20px;
+    transition: 0.7s all;
+    border-radius: 7px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+
+}
+
+.encriptar:hover{
+    background: #4040fb;
+    transform: scale(1.1);
+}
+
+.desencriptar{
+    background-color: #89ac76;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 20px;
+    transition: 0.7s all;
+    border-radius: 7px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+ 
+
+}
+
+.desencriptar:hover{
+    background: #4040fb;
+    transform: scale(1.1);
+}
+
+.mensaje{
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    background: url("imagenes/fondo1.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 8px;
+    
+}
+
+.copiar{
+    background-color: #89ac76;
+    color: #ffffff;
+    position: absolute;
+    transition: 0.7s all;
+    border-radius: 7px;
+    width: 200px;
+    height: 40px;
+    left: 955px;
+    top:520px;
+    border: none;
+    font-size: 20px;
+
+}
+
+.copiar:hover{
+    background: #4040fb;
+    transform: scale(1.2);
+}
+
